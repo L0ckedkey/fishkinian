@@ -1,0 +1,70 @@
+.product_container_parent{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    align-items: center;
+    width: 100%;
+}
+
+.product_container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 100%;
+    gap: 1vw;
+}
+
+.title_container{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFD770;
+    margin-bottom: 4vw;
+}
+
+.product_card_container{
+    display: flex;
+    /* background-color: red; */
+    overflow-x: scroll;
+    gap: 1vw;
+}
+
+.product_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    /* background-color: aliceblue; */
+    flex: 0 0 20%;
+    height: 40vh;
+    border-radius: 1vw;
+    background-color: rgba(62,62,66, 0.4);
+}
+
+.product_card:hover{
+    background-color: rgba(62,62,66, 1);
+}
+
+.image{
+    width: 90%;
+    border-radius: 1vw;
+}
+
+.product_card_title{
+    font-size: 1.8vw;
+    height: 20%;
+    /* background-color: red; */
+}
+
+.product_category_title{
+    font-size: 2vw;
+}
