@@ -131,7 +131,7 @@ export default function FishCatalogue(){
             <h1 className={styles.title_container}>Fish Catalogue</h1>
             <div className={styles.catalogue_container}>
                 {titles.map((title, index) => (
-                    <Catalogue title={title} imagePath={imagePaths[index]} index={index} link={links[index]} isLinkAvailable/>
+                    <Catalogue key={index} title={title} imagePath={imagePaths[index]} index={index} link={links[index]} isLinkAvailable/>
                 ))}
             </div>
         </div>

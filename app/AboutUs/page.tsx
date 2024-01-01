@@ -21,7 +21,7 @@ export default function AboutUs(){
             <div className={styles.information_container}>
                 {
                     titles.map((title, index) => (
-                        <Container index={index} title={title} desc={descriptions[index]} imagePath={imagePaths[index]}/>
+                        <Container key={index} index={index} title={title} desc={descriptions[index]} imagePath={imagePaths[index]}/>
                     ))
                 }
             </div>
