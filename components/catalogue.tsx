@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/fishCatalogue.module.css'
+import styles from '../app/styles/fishCatalogue.module.css'
 
 interface CatalogueProps{
     index: number;

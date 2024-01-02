@@ -55,3 +55,7 @@
     font-weight: bold;
     border-radius: 0.3vw;
 }
+
+.disappear{
+    display: none;
+}

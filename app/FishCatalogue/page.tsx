@@ -1,4 +1,4 @@
-import Catalogue from '../components/catalogue'
+import Catalogue from '../../components/catalogue'
 import styles from '../styles/fishCatalogue.module.css'
 
 export default function FishCatalogue(){

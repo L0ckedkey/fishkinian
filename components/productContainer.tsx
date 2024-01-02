@@ -1,4 +1,4 @@
-import styles from '../styles/product.module.css'
+import styles from '../app/styles/product.module.css'
 import ProductCard from './productCard'
 
 export default function ProductContainer(){

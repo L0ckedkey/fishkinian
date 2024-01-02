@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Container from '../components/aboutUsContainer'
+import Container from '../../components/aboutUsContainer'
 import styles from '../styles/aboutUs.module.css'
 import { title } from 'process'
 

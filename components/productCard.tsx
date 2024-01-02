@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/product.module.css'
+import styles from '../app/styles/product.module.css'
 
 export default function ProductCard(){
     return(

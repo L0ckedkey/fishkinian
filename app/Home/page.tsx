@@ -1,4 +1,4 @@
-import Slider from "../components/banner";
+import Slider from "../../components/banner";
 import styles from '../styles/home.module.css'
 
 export default function Home() {

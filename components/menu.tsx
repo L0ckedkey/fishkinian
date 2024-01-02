@@ -1,7 +1,7 @@
 'use client'
 
 import { usePathname } from 'next/navigation';
-import styles from '../styles/navbar.module.css';
+import styles from '../app/styles/navbar.module.css';
 
 interface MenuProps {
     icon: string;

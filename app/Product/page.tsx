@@ -1,4 +1,4 @@
-import ProductContainer from '../components/productContainer'
+import ProductContainer from '../../components/productContainer'
 import styles from '../styles/product.module.css'
 
 export default function Product(){

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/home.module.css'
+import styles from '../app/styles/home.module.css'
 
 export function Banner(){
     return(

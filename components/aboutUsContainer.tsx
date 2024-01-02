@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import styles from '../styles/aboutUs.module.css';
-import { MenuProps } from '@nextui-org/react';
+import styles from '../app/styles/aboutUs.module.css';
 
 interface aboutUsContainerProps{
     index: number;
