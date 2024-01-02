@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
 
-module.exports = nextConfig
+// next.config.js
+const nextConfig = {
+    // ... other configurations ...
+    "exclude": ['/components/icon.tsx'],
+  };
+  
+  module.exports = nextConfig;
+  
